@@ -1,0 +1,43 @@
+.carousel-component { 
+    padding:8px 16px 4px 16px;
+    margin:0px;
+}
+
+.carousel-component .carousel-list li { 
+    margin:4px;
+    width:79px; /* img width is 75 px from flickr + a.border-left (1) + a.border-right(1) + 
+                   img.border-left (1) + img.border-right (1)*/
+    height:93px; /* image + row of text (87) + border-top (1) + border-bottom(1) + margin-bottom(4) */
+    /*    margin-left: auto;*/ /* for testing IE auto issue */
+}
+
+.carousel-component .carousel-list li a { 
+    display:block;
+    border:1px solid #e2edfa;
+    outline:none;
+}
+
+.carousel-component .carousel-list li a:hover { 
+    border: 1px solid #aaaaaa; 
+}
+
+.carousel-component .carousel-list li img { 
+    border:1px solid #999;
+    display:block; 
+}
+                                
+.carousel-component .carousel-prev { 
+    position:absolute;
+    top:40px;
+    z-index:3;
+    cursor:pointer; 
+    left:5px; 
+}
+
+.carousel-component .carousel-next { 
+    position:absolute;
+    top:40px;
+    z-index:3;
+    cursor:pointer; 
+    right:5px; 
+}

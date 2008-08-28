@@ -1,0 +1,200 @@
+#ga-body {
+    font-family: arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#sidebar {
+
+}
+
+
+#welcome {
+    background-color: #FFF9D8;
+    margin: 1em;
+    font-family: 'Trebuchet MS';
+    padding: 1em;
+}
+
+#welcome p {
+    margin: .5em;
+}
+
+#topmenu {
+    text-align: right;
+    position: relative;
+    margin-right: 7px;
+    font-size: x-small;
+    font-weight: bold;
+    color: #666666;
+}
+
+fieldset {
+    border: 1px solid lightgray;
+    padding: 1em;
+}
+
+legend {
+
+    font-size: .8em;
+    padding: .5em;
+}
+
+label {
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 1em;
+    width: 20%;
+
+}
+
+
+
+form p {
+    padding-top: 1em;
+}
+
+
+
+.infoBox table {
+    width: 100%;    
+}
+
+td.title {
+    text-align: left;
+}
+
+td.stat {
+    text-align: right;
+}
+
+
+
+
+#header {
+ 	background: url(../images/logo_background.png) repeat-x;
+}
+#header img {
+	padding: 1em;
+}
+
+#intro {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#outro {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background: url(../images/logo_background.png) repeat-x;
+    border: 1px solid #f2f4fb;
+    color: black;
+    font: "Trebuchet MS",Trebuchet,Arial
+}
+
+h3 {
+    font-size: .8em;
+    border-top: 1px solid black;
+    background-color: #f2f4fb;
+    margin-bottom: 1em;
+}
+
+
+.infoBox {
+    padding: 5px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 1px solid lightgray;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #f9f9f9;
+
+}
+
+.infoBoxTitle {
+    font-weight: bold;
+    color: #6F6F6F;
+
+}
+
+.infoBoxBody {
+
+}
+
+#fanboys {
+    background-color: #EDF1F9;
+    padding: 1em;
+}
+
+#stats {
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+div.bubble cite {
+    font-size: smaller;
+    color: #6F6F6F;
+
+}
+
+#footerText {
+    margin-top: 2em;
+    font-size: x-small;
+    color: gray;
+    text-align: center;
+}
+
+.flash {
+    background-color: pink;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.rolodex {
+    font-size: small;
+    text-align: center;
+}
+
+.activeLetter {
+    background-color: lightgray;
+    color: white;
+    padding: 5px;
+
+}
+
+.activeLetter a {
+     text-decoration: none;
+}
+
+
+.inactiveLetter {
+    color: darkgray;
+    padding: 3px
+}
+
+.bigLetter {
+    color: darkgray;
+    font-size: small;
+    border-top: 1px dotted gray;
+    margin-top: 1em;
+}
+
+.nomName {
+    margin-top: .5em;
+}
+
+.nomStats {
+    font-size: smaller;
+    color: #6F6F6F;
+}

@@ -1,0 +1,29 @@
+.slot { 
+	border:0px solid #aaaaaa; 
+	color:#666666; 
+}
+.player { 
+	/* border:2px solid #bbbbbb;
+	color:#000000;
+	*/ 
+}
+.target { 
+	border:2px dashed #574188; 
+	background-color:#FFFFFF; 
+	color: #000000; 
+}
+
+.content {
+	background-color:#DDDDDD;
+}
+
+#usercontrols {
+	position: inherit;
+	/* top: -45px; */
+}
+
+td.drag {
+	width:250px; 
+	height:250px;
+	vertical-align: top;
+}

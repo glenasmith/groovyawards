@@ -1,0 +1,13 @@
+<plugin name='runtime-logging' version='0.3'>
+  <author>Jason Morris</author>
+  <authorEmail>jason.morris@torusit.com</authorEmail>
+  <title>Grails Runtime Logging Plugin</title>
+  <description>
+RuntimeLogging plugin allows you to change the logging characteristics (e.g. Level) 
+for common parts of a Grails application at runtime without the need to restart.
+    </description>
+  <documentation>http://grails.org/Runtime+Logging+Plugin</documentation>
+  <resources>
+    <resource>RuntimeLoggingController</resource>
+  </resources>
+</plugin>

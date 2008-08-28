@@ -1,0 +1,6 @@
+.ygtvlabel { color: black; background: #F1F1F1; }
+.ygtvlabel, .ygtvlabel:link, .ygtvlabel:visited, .ygtvlabel:hover {
+	background-color:#F1F1F1;
+	margin-left:2px;
+	text-decoration:none;
+}

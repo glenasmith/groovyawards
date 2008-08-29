@@ -25,10 +25,10 @@
 
 <g:each var="nom" in="${noms}">
 
-    <g:if test="${lastLetter != nom.name[0]}">
+    <g:if test="${lastLetter != nom.name.toUpperCase()[0]}">
         <a name="${nom.name[0]}"
-        <div class="bigLetter">${nom.name[0]}</div>
-        <g:set var="lastLetter" value="${nom.name[0]}"/>
+        <div class="bigLetter">${nom.name.toUpperCase()[0]}</div>
+        <g:set var="lastLetter" value="${nom.name.toUpperCase()[0]}"/>
     </g:if>
 
     <div class="nomList">

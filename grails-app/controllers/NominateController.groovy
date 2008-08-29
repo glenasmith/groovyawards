@@ -1,4 +1,9 @@
+import org.jsecurity.crypto.hash.Sha1Hash
+import org.jsecurity.authc.UsernamePasswordToken
+
 class NominateController {
+
+    def jsecSecurityManager
 
     def index = {
         redirect(action:"home")
@@ -74,14 +79,45 @@ class NominateController {
         
     }
 
+    def register = {
 
+        if (params.username) {
+            if (JsecUser.findByUsernameIlike(params.username)) {
+                flash.message = "That id is already taken"
+            } else if (!params.username || !params.password) {
+                flash.message = "You must supply a username and password"
+            } else {
+                JsecRole userRole = JsecRole.findByName("user")
+                def newUser = new JsecUser(username: params.username, passwordHash: new Sha1Hash(params.password).toHex()).save(flush: true)
+                new JsecUserRoleRel(user: newUser, role: userRole).save(flush: true)
+
+                // and log them in...
+                def authToken = new UsernamePasswordToken(params.username, params.password)
+                jsecSecurityManager.login(authToken)
+
+                render(view:"registerSuccess", model: [ user: newUser ])
+            }
+            [ username: params.username, password: params.password ]
+        }
+
+
+    }
+
+    def availability = {
+        println "Available for: ${params.username}"
+        if (JsecUser.findByUsernameIlike(params.username)) {
+            render "<span style='color: red'>No</span>"
+        } else {
+            render "<span style='color: green'>Yes</span>"
+        }
+    }
 
     def browse = {
         log.debug "Now browsing.."
         def noms = Nomination.listOrderByName()
 
         // work out the letters we need to mark up
-        def activeLetters = noms.collect { nom -> nom.name[0] }.unique()
+        def activeLetters = noms.collect { nom -> nom.name.toUpperCase()[0] }.unique()
 
         [ noms : noms, activeLetters : activeLetters ]
     }
@@ -113,39 +149,6 @@ class NominateController {
         return [ results: results, query: query ]
     }
 
-    /*
-
-     Sample of dynamic criteria queries... Keep for the book
-
-    def searchResults = {
-
-
-        def results = Nomination.createCriteria().list {
-            or {
-                if (params.name) {
-                    ilike("name", params.name)
-                }
-                if (params.url) {
-                    ilike("url", params.url)
-                }
-                if (params.nominator) {
-                    fanBoys {
-                        ilike("name", params.nominator)
-                    }
-                }
-                if (params.comments) {
-                    fanBoys {
-                        ilike("content", params.nominator)
-                    }
-                }
-            }
-        }
-        println results.dump()
-        return [noms: results]
-
-    }
-    */
-
 
     def show = {
 
@@ -158,9 +161,14 @@ class NominateController {
 
             return [ nom : nom ]
         } else {
-            reponse.sendError(404) 
+            response.sendError(404) 
         }
 
+    }
+
+    def previewLove = {
+        FanBoy fb = new FanBoy(params)
+        render(template: "comment", model: [ fanboy: fb ])
     }
 
     def directLove = {
@@ -178,6 +186,15 @@ class NominateController {
             flash.message = "Successfully add new love for: ${nom.name}"
         }
         redirect(action: 'show', id: nom.name.encodeAsNiceTitle())
+    }
+
+
+    def timeline = {
+        params.max = 10
+        params.order = 'desc'
+        def fanBoys = FanBoy.listOrderByCreated(params)
+        [ fanBoys : fanBoys, totalFans : FanBoy.count() ]
+
     }
 
     def how = {

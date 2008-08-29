@@ -16,6 +16,15 @@
     
 </div>
 
+<jsec:isNotLoggedIn>
+    <p style="text-align: center;">
+        Once you <g:link controller="nominate" action="register">register</g:link> or
+        <g:link controller="auth" action="login">login</g:link> you can nominate.
+    </p>
+</jsec:isNotLoggedIn>
+
+
+<jsec:isLoggedIn>
 <fieldset>
 <legend>Autocomplete a name or type a new one...</legend>
         <g:form action="nominate">
@@ -42,5 +51,6 @@
             <a href="browse">browse</a>
             
 </p>
+</jsec:isLoggedIn>
 </body>
 </html>

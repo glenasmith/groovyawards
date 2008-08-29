@@ -41,4 +41,15 @@
 
     </div>
 
+    <div class="infoBox">
+        <div class="infoBoxTitle">
+            Feeds
+        </div>
+        <div class="infoBoxBody">
+           <g:link controller="feed" action="nominations">Nominations</g:link> <br/>
+           <g:link controller="feed" action="comments">Comments</g:link>
+        </div>
+
+    </div>
+
 </div>

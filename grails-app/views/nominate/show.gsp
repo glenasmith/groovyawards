@@ -3,8 +3,9 @@
     <title>
         ${nom.name}    
     </title>
-    <link rel="stylesheet" href="${createLinkTo(dir: 'css', file: 'bubbles.css')}"/>    
-
+    <link rel="stylesheet" href="${createLinkTo(dir: 'css', file: 'bubbles.css')}"/>
+    <g:javascript library="prototype"/>
+    <g:javascript library="scriptaculous"/>
 </head>
 <body>
 <p id="intro">
@@ -15,6 +16,11 @@
 
 <div id="stats">
 ${nom.pageViews} views &raquo; ${nom.fanBoys.size()} comments
+        <jsec:hasRole name="admin">
+            <span id="deleteNom${nom.id}" class="admin">
+                <g:remoteLink controller="admin" action="deleteNomination" id="${nom.id}" update="deleteNom${nom.id}">Delete</g:remoteLink>
+            </span>
+        </jsec:hasRole>
 </div>
 
 <g:if test="${flash.existingNom}">
@@ -29,17 +35,7 @@ ${nom.pageViews} views &raquo; ${nom.fanBoys.size()} comments
     <div id="fanboys">
 
     <g:each var="fanboy" in="${nom.fanBoys}">
-        <a name="c${fanboy.id}"/>
-        <div class="bubble">
-        <blockquote>
-            <p>
-             ${fanboy.content.encodeAsHTML()}
-            </p>
-        </blockquote>
-        <cite>
-            <strong>${fanboy.name}</strong> &raquo; <g:dateFromNow date="${fanboy.created}"/>
-        </cite>
-        </div>
+        <g:render template="comment" model="[ fanboy : fanboy ]"/>
     </g:each>
 
     </div>

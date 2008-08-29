@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="${createLinkTo(dir: 'css', file: 'reset-fonts-grids.css')}"/>    
     <link rel="stylesheet" href="${createLinkTo(dir:'css',file:'groovyawards.css')}" />
 
+    <feed:meta kind="rss" version="2.0" controller="feed" action="nominations"/>
+    <feed:meta kind="rss" version="2.0" controller="feed" action="comments"/>
+
     <g:layoutHead/>
 
 </head>
@@ -14,16 +17,23 @@
 		            <div id="hd">
                         <div id="topmenu">
 		                    <g:link controller="nominate" action="home">Nominate</g:link> |
-                            <g:link controller="nominate" action="how">About</g:link> |
+                             <g:link controller="nominate" action="timeline">Timeline</g:link> |
+
                             <g:link controller="nominate" action="search">Search</g:link> |
                             <g:link controller="nominate" action="browse">Browse</g:link> |
                             <jsec:isNotLoggedIn>
-                                <g:link controller="auth" action="login">Login</g:link>
+                                <g:link controller="nominate" action="register">Register</g:link> |
+                                <g:link controller="auth" action="login">Login</g:link> |
                             </jsec:isNotLoggedIn>
                             <jsec:isLoggedIn>
                                 <jsec:principal/>
-                                <g:link controller="auth" action="signOut">Logout</g:link>
+                                <g:link controller="auth" action="signOut">Logout</g:link> |
+                                <jsec:hasRole name="admin">
+                                    <g:link controller="nomination">Nom Scaffold</g:link> |
+                                    <g:link controller="fanBoy">Fan Scaffold</g:link> |
+                                </jsec:hasRole>
                             </jsec:isLoggedIn>
+                            <g:link controller="nominate" action="how">About</g:link>
 
                         </div>
 

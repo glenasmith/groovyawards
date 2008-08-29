@@ -149,7 +149,7 @@ div.bubble cite {
 #footerText {
     margin-top: 2em;
     font-size: x-small;
-    color: gray;
+    color: #6F6F6F;
     text-align: center;
 }
 
@@ -196,5 +196,23 @@ div.bubble cite {
 
 .nomStats {
     font-size: smaller;
+    color: #6F6F6F;
+}
+
+#paginate {
+    text-align: center;
+}
+
+#paginate a {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.admin {
+    color: #6F6F6F;
+}
+
+.admin a {
+    text-decoration: none;
     color: #6F6F6F;
 }

@@ -1,4 +1,4 @@
-class FanBoy implements Comparable, Serializable {
+class FanBoy implements Comparable {
 
     String name
     String content

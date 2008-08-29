@@ -1,4 +1,4 @@
-class Nomination implements Serializable {
+class Nomination  {
 
     String name
     //String url

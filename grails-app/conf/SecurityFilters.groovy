@@ -41,6 +41,15 @@ class SecurityFilters {
             }
         }
 
+        secureActions(controller: "nominate", action:"(nominate|confirm|directLove)") {
+            before = {
+                accessControl {
+                    true
+                }
+            }
+
+        }
+
     }
 
 }

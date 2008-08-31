@@ -97,6 +97,9 @@ class AwardTagLib {
 
         Nomination.withTransaction {
             def mc = Nomination.list().sort() { -it.fanBoys.size() }
+            if (mc.size() > 5) {
+                mc = mc[0..4]
+            }
             out << "<table>"
             mc.each { nom ->
                 out << "<tr>"

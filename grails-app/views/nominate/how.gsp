@@ -9,7 +9,7 @@
         How does all this work?
     </h4>
     <p>
-        Glen &amp; Sven from the Grails Podcast wanted a way to recognise the good work that a
+        Glen &amp; Sven from the <a href="http://hansamann.podspot.de/">Grails Podcast</a> wanted a way to recognise the good work that a
         bunch of people are doing in our community, so it seemed right to invent an award. :-)
     </p>
     <p>

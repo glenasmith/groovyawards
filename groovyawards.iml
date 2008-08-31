@@ -24,11 +24,20 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/views" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/feeds-1.4/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/feeds-1.4/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/feeds-1.4/test/integration" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/feeds-1.4/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/grails-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.3-SNAPSHOT/grails-app/conf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.3-SNAPSHOT/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.3-SNAPSHOT/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.3-SNAPSHOT/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.3-SNAPSHOT/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/p6spy-0.4/grails-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/profiler-0.1/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/profiler-0.1/src/java" isTestSource="false" />
@@ -47,6 +56,12 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/runtime-logging-0.3/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/runtime-logging-0.3/grails-app/views" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/runtime-logging-0.3/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.4.2/grails-app/conf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.4.2/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.4.2/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.4.2/grails-app/views" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.4.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.4.2/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.5-SNAPSHOT/grails-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.5-SNAPSHOT/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/searchable-0.5-SNAPSHOT/grails-app/services" isTestSource="false" />
@@ -70,18 +85,33 @@
           <root url="file://$MODULE_DIR$/plugins/p6spy-0.4/lib" />
           <root url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/lib" />
           <root url="file://$MODULE_DIR$/plugins/searchable-0.5-SNAPSHOT/lib" />
+          <root url="file://$MODULE_DIR$/plugins/feeds-1.4/lib" />
+          <root url="file://$MODULE_DIR$/plugins/searchable-0.4.2/lib" />
+          <root url="file://$MODULE_DIR$/plugins/jsecurity-0.3-SNAPSHOT/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/plugins/feeds-1.4/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/plugins/jsecurity-0.3-SNAPSHOT/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/plugins/p6spy-0.4/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/plugins/richui-0.3/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/plugins/richui-0.4/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/plugins/searchable-0.4.2/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/plugins/searchable-0.5-SNAPSHOT/lib" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="library" name="GRAILS" level="application" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/javaee.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntryProperties />
   </component>
 </module>

@@ -7,12 +7,28 @@ class AdminController {
     def deleteComment = {
 
         def fanBoy = FanBoy.get(params.id)
-        if (fanBoy) {
+        def nom = Nomination.createCriteria().get {
+            fanBoys {
+                eq('id', fanBoy.id)
+            }
+
+        }
+        println "Found ${fanBoy} in ${nom}"
+        if (nom) {
             fanBoy.delete()
+            nom.removeFromFanBoys(fanBoy)
             render "Deleted"
         } else {
             render "Failed"
         }
+
+//        def fanBoy = FanBoy.get(params.id)
+//        if (fanBoy) {
+//            fanBoy.delete()  // nested exception is org.hibernate.ObjectDeletedException: deleted object would be re-saved by cascade (remove deleted object from associations)
+//            render "Deleted"
+//        } else {
+//            render "Failed"
+//        }
 
     }
 

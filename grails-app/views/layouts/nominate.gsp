@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="${createLinkTo(dir: 'css', file: 'reset-fonts-grids.css')}"/>    
     <link rel="stylesheet" href="${createLinkTo(dir:'css',file:'groovyawards.css')}" />
 
+    <meta name="keywords" content="groovy,grails,groovy awards,grails awards"/>
+    <meta name="description" content="Community participation awards from the Groovy and Grails community"/> 
+
     <feed:meta kind="rss" version="2.0" controller="feed" action="nominations"/>
     <feed:meta kind="rss" version="2.0" controller="feed" action="comments"/>
 
@@ -69,7 +72,7 @@
 		            </div>  <!-- end body -->
 		            <div id="ft">
 		                <div id="footerText">
-		                Groovy Awards <g:meta name="app.version"/> on Grails <g:meta name="app.grails.version"/> by <a href="http://blogs.bytecode.com.au/glen">Glen Smith</a>.
+		                Groovy Awards <g:meta name="app.version"/> on Grails <g:meta name="app.grails.version"/> by <a href="http://blogs.bytecode.com.au/glen">Glen Smith</a> and <a href="http://hansamann.podspot.de/">Sven Haiges</a>.
 		                </div>
 		            </div>
 		        </div>

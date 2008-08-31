@@ -16,4 +16,9 @@ class Nomination  {
 
     static searchable = true
 
+    static mapping = {
+         cache: true
+         fanBoys cache: true
+    }
+
 }

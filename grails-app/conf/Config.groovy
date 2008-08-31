@@ -34,7 +34,7 @@ grails.enable.native2ascii = true
 // set per-environment serverURL stem for creating absolute links
 environments {
     production {
-        grails.serverURL = "http://www.changeme.com"
+        grails.serverURL = "http://www.groovyawards.org"
     }
 }
 
@@ -60,8 +60,8 @@ log4j {
             codehaus.groovy.grails.commons="info" // core / classloading
             codehaus.groovy.grails.plugins="error" // plugins
             codehaus.groovy.grails.orm.hibernate="error" // hibernate integration
-            springframework="off"
-            hibernate="off"
+            springframework="off" // off
+            hibernate="off" // off
         }
         grails {
             app="info, stdout"
@@ -71,6 +71,8 @@ log4j {
     additivity.StackTrace=false
 
 }
+
+jsecurity.authc.required = false
 
 
 

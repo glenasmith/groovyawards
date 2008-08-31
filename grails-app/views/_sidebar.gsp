@@ -52,4 +52,20 @@
 
     </div>
 
+    <div class="infoBox">
+        <div class="infoBoxTitle">
+            Button Love
+        </div>
+        <div class="infoBoxBody" style="margin-left: 3em;">
+
+                <a href="http://hansamann.podspot.de/"><img src="<g:createLinkTo dir='images' file='grails_podcast_button.png'/>" alt="grails podcast logo"/></a> <br/>
+            <br/>
+
+                <a href="http://www.grails.org"><img src="<g:createLinkTo dir='images' file='grails_button.png'/>" alt="grails logo"/></a>
+            <br/>
+            
+        </div>
+
+    </div>
+
 </div>

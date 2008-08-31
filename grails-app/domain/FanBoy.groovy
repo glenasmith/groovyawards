@@ -18,12 +18,16 @@ class FanBoy implements Comparable {
     }
 
     static belongsTo = [ nomination : Nomination ]
-    
-  static searchable = {
+
+    static searchable = {
         name()
         content()
         nomination(component: true)
-  }
+    }
+
+    static mapping = {
+        cache: true
+    }
 
 
 }

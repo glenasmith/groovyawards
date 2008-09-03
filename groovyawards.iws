@@ -107,7 +107,7 @@
       <file leaf-file-name="NominateController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/NominateController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="55" selection-start="5367" selection-end="5367" vertical-scroll-proportion="0.44541484">
+            <state line="22" column="72" selection-start="556" selection-end="556" vertical-scroll-proportion="0.54658383">
               <folding />
             </state>
           </provider>
@@ -152,7 +152,7 @@
       <file leaf-file-name="FanBoy.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/FanBoy.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="534" selection-end="561" vertical-scroll-proportion="0.63716817">
+            <state line="18" column="38" selection-start="414" selection-end="414" vertical-scroll-proportion="0.4778761">
               <folding />
             </state>
           </provider>
@@ -164,7 +164,7 @@
       <file leaf-file-name="Nomination.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/Nomination.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.42477876">
+            <state line="15" column="13" selection-start="301" selection-end="301" vertical-scroll-proportion="0.39823008">
               <folding />
             </state>
           </provider>
@@ -606,7 +606,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="29" width="1134" height="707" extended-state="0" />
+    <frame x="129" y="38" width="1134" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -742,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/FanBoyController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.12048193">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/_sidebar.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="91" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.55378485">
@@ -777,26 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Nomination.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.42477876">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/FanBoy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="534" selection-end="561" vertical-scroll-proportion="0.63716817">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/home.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.7687366">
@@ -804,9 +777,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/FanBoyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.12048193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/FanBoy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="414" selection-end="414" vertical-scroll-proportion="0.4778761">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Nomination.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="301" selection-end="301" vertical-scroll-proportion="0.39823008">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/NominateController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="55" selection-start="5367" selection-end="5367" vertical-scroll-proportion="0.44541484">
+        <state line="22" column="72" selection-start="556" selection-end="556" vertical-scroll-proportion="0.54658383">
           <folding />
         </state>
       </provider>

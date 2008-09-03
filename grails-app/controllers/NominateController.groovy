@@ -11,15 +11,20 @@ class NominateController {
 
     def home = {
 
-        // build data for tagclouds
-
-        def clickMap = [:]
-        def commentMap = [:]
-        Nomination.list().each { nom ->
-            clickMap[nom.name] = nom.pageViews
-            commentMap[nom.name] = nom.fanBoys.size()
+        // build data for tagcloud using a projection
+        def resList = FanBoy.withCriteria {
+            createAlias("nomination", "n")
+            projections {
+                groupProperty('n.name')
+                count('id')
+            }
         }
-        [ clickMap : clickMap, commentMap : commentMap ]
+
+        // projection returns a list of name,count -- but tagcloud needs a map. Convert it here.
+
+        def commentMap = resList.inject([ : ]) { map, res -> map[ res[0] ] = res[1]; map }
+
+        [ commentMap : commentMap ]
 
     }
 

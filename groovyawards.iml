@@ -28,6 +28,9 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/feeds-1.4/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/feeds-1.4/test/integration" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/feeds-1.4/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/google-chart-0.4.7/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/google-chart-0.4.7/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/google-chart-0.4.7/test/integration" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/grails-app/conf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/jsecurity-0.2.1/grails-app/taglib" isTestSource="false" />

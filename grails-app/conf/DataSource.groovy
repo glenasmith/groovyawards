@@ -19,7 +19,7 @@ environments {
             driverClassName = "org.postgresql.Driver"
             //driverClassName = "com.p6spy.engine.spy.P6SpyDriver"
 
-            url = "jdbc:postgresql://flatwhite/groovyawards"
+            url = "jdbc:postgresql://localhost/groovyawards"
             username = "glen"
 	        password = "password"
             // url = "jdbc:hsqldb:file:devDB;shutdown=true"

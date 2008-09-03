@@ -11,7 +11,6 @@
 <p id="intro">
     The groovy and grails community appreciates...
 </p>
-
 <h2>${nom.name}</h2>
 
 <div id="stats">

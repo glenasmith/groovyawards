@@ -77,37 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AwardTagLib.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/taglib/AwardTagLib.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="70" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.023166023">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/AdminController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="27" selection-start="414" selection-end="414" vertical-scroll-proportion="0.25672877">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FanBoyController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/FanBoyController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="649" selection-end="649" vertical-scroll-proportion="0.52904564">
+            <state line="5" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.12048193">
               <folding />
             </state>
           </provider>
@@ -116,16 +89,52 @@
       <file leaf-file-name="home.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/home.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="89" selection-start="843" selection-end="843" vertical-scroll-proportion="0.28907922">
+            <state line="65" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.7687366">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nominate.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/nominate.gsp">
+      <file leaf-file-name="_sidebar.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/_sidebar.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="93" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.025695931">
+            <state line="56" column="91" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.55378485">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NominateController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/NominateController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="180" column="55" selection-start="5367" selection-end="5367" vertical-scroll-proportion="0.44541484">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="98" selection-start="3096" selection-end="3096" vertical-scroll-proportion="0.55984557">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/show.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="4" selection-start="317" selection-end="317" vertical-scroll-proportion="0.3083512">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="groovyawards.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/css/groovyawards.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="219" column="8" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.88742965">
               <folding />
             </state>
           </provider>
@@ -134,16 +143,7 @@
       <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="15" selection-start="889" selection-end="889" vertical-scroll-proportion="0.6023166">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ehcache.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ehcache.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.32495165">
+            <state line="23" column="76" selection-start="822" selection-end="822" vertical-scroll-proportion="0.53281856">
               <folding />
             </state>
           </provider>
@@ -152,7 +152,7 @@
       <file leaf-file-name="FanBoy.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/FanBoy.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="492" selection-end="492" vertical-scroll-proportion="0.5575221">
+            <state line="24" column="36" selection-start="534" selection-end="561" vertical-scroll-proportion="0.63716817">
               <folding />
             </state>
           </provider>
@@ -161,10 +161,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nomination.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Nomination.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/Nomination.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+            <state line="16" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.42477876">
               <folding />
             </state>
           </provider>
@@ -241,6 +241,46 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/web-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/web-app/css" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/src" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -264,6 +304,54 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app/views" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app/views" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app/views/nominate" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -326,6 +414,28 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app/controllers" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/glen/IdeaProjects/groovyawards/grails-app/conf" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -496,7 +606,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="106" width="1134" height="707" extended-state="0" />
+    <frame x="135" y="29" width="1134" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -583,41 +693,6 @@
     </GetOptions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/feeds-1.4/src/groovy/feedsplugin/FeedBuilder.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="6" selection-start="2990" selection-end="2990" vertical-scroll-proportion="-9.683674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/FeedController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="88" selection-start="294" selection-end="298" vertical-scroll-proportion="0.3802817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/_sidebar.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="53" selection-start="1332" selection-end="1360" vertical-scroll-proportion="0.4059406">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/how.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="679" selection-end="679" vertical-scroll-proportion="0.80597013">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="32" selection-start="2995" selection-end="2995" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/register.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -625,30 +700,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="649" selection-end="649" vertical-scroll-proportion="0.52904564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/home.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="89" selection-start="843" selection-end="843" vertical-scroll-proportion="0.28907922">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/nominate.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="93" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.025695931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="889" selection-end="889" vertical-scroll-proportion="0.6023166">
           <folding />
         </state>
       </provider>
@@ -667,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/FanBoyController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.32495165">
@@ -681,9 +728,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/FanBoy.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="492" selection-end="492" vertical-scroll-proportion="0.5575221">
+        <state line="22" column="12" selection-start="649" selection-end="649" vertical-scroll-proportion="0.52904564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/groovyawards.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="8" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.88742965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/FanBoyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.12048193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_sidebar.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="91" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.55378485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="76" selection-start="822" selection-end="822" vertical-scroll-proportion="0.53281856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="317" selection-end="317" vertical-scroll-proportion="0.3083512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="98" selection-start="3096" selection-end="3096" vertical-scroll-proportion="0.55984557">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Nomination.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.42477876">
           <folding />
         </state>
       </provider>
@@ -691,14 +787,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Nomination.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/FanBoy.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+        <state line="24" column="36" selection-start="534" selection-end="561" vertical-scroll-proportion="0.63716817">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/nominate/home.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.7687366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/NominateController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="55" selection-start="5367" selection-end="5367" vertical-scroll-proportion="0.44541484">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

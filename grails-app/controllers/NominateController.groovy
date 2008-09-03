@@ -10,7 +10,17 @@ class NominateController {
     }
 
     def home = {
-        // nothing to do here...
+
+        // build data for tagclouds
+
+        def clickMap = [:]
+        def commentMap = [:]
+        Nomination.list().each { nom ->
+            clickMap[nom.name] = nom.pageViews
+            commentMap[nom.name] = nom.fanBoys.size()
+        }
+        [ clickMap : clickMap, commentMap : commentMap ]
+
     }
 
     def nominate = {
@@ -149,6 +159,13 @@ class NominateController {
         return [ results: results, query: query ]
     }
 
+    def showTag = {
+
+        // encode the full name then redirect on
+        redirect(action: show, id: params.selectedTag.encodeAsNiceTitle())
+
+        
+    }
 
     def show = {
 
@@ -156,8 +173,14 @@ class NominateController {
         def allNoms = Nomination.list()
         def nom = allNoms.find { nom -> nom.name.encodeAsNiceTitle() == params.id }
         if (nom) {
-
-            nom.pageViews++
+            
+            try {
+                nom.pageViews++
+                nom.save(flush: true)
+            } catch(org.springframework.dao.OptimisticLockingFailureException e) {
+	            // whatever, it's just a hit counter...
+                log.warn("Missed hit on ${nom.name} because of locking")
+            }
 
             return [ nom : nom ]
         } else {

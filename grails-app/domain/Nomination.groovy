@@ -14,7 +14,7 @@ class Nomination  {
     
     static hasMany = [ fanBoys : FanBoy ]
 
-    static searchable = true
+    static searchable = [ only: 'name' ]
 
     static mapping = {
          cache: true

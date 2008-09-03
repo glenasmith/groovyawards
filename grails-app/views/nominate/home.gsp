@@ -52,5 +52,18 @@
             
 </p>
 </jsec:isLoggedIn>
+
+
+
+<div class="infoBox">
+    <div class="infoBoxTitle" style="border-bottom: 1px dotted darkgray; margin-bottom: 1em;">
+        Most Commented Tagcloud
+    </div>
+    <div class="infoBoxBody">
+        <richui:tagCloud values="${commentMap}" controller="nominate" action="showTag" minSize="8" maxSize="30" linkClass="tagLink"/>
+    </div>
+</div>
+
+
 </body>
 </html>
